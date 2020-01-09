@@ -9,7 +9,7 @@ class MultiplicationTable {
         while (k > 0) {
             int answer = num * i;
             System.out.println(num + " x " + i + " = " + answer);
-            table += String.valueOf(answer) + " ";
+            table += answer + " ";
             i++;
             k--;
         }
